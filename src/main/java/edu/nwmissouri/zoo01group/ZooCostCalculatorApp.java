@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ZooCostCalculatorApplication {
+public class ZooCostCalculatorApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ZooCostCalculatorApplication.class, args);
+		SpringApplication.run(ZooCostCalculatorApp.class, args);
 	}
 
 }
