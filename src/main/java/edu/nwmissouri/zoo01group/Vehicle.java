@@ -6,16 +6,30 @@ package edu.nwmissouri.zoo01group;
 
 /**
  *
- * @author S545012
+ * @author Mulamalla,Akhil Kumar Reddy 
  */
-public abstract class Vehicle {
+public abstract class Vehicle 
+{
+    private double speed;
+    private double kilometers;
+    private String name;
     
+    /**
+     * getter method to get mileage
+     * @return mileage
+     */
     public double getMileage(){
-return 0;
+        double mileage=(speed/kilometers)*5/18;
+    return mileage;
 }
 
-public double getMaxSpeed(){
-return 0;
+    /**
+     * getter method to get max Speed
+     * @return maxSpeed
+     */
+    public double getMaxSpeed(){
+        double maxSpeed=speed*100;
+    return maxSpeed;
 }
     
 }
