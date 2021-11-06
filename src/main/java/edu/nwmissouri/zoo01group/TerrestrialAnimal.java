@@ -14,4 +14,13 @@ public class TerrestrialAnimal extends Animal {
         super(name);
     }
     
+        @Override
+    public void speak() {
+      
+    }
+    
+    @Override
+    public void move() {
+    }
+    
 }
