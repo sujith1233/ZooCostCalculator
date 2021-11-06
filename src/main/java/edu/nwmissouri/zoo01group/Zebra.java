@@ -11,7 +11,6 @@ package edu.nwmissouri.zoo01group;
 public class Zebra extends TerrestrialAnimal {
 
     public Zebra(String name) {
-        super(name);
     }
     
 }

@@ -10,34 +10,109 @@ package edu.nwmissouri.zoo01group;
  * 
  */
 public class AquaticAnimal extends Animal{
-
-    public AquaticAnimal(String name) {
-        super(name);
-    }
-
-    @Override
-    public void setGender(AnimalGender gender) {
-        super.setGender(gender); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public AnimalGender getGender() {
-        return super.getGender(); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public String getName() {
-        return super.getName(); //To change body of generated methods, choose Tools | Templates.
-    }
     
+    private double depth;
+    private String name;
+    private boolean amphibians;
+
+    /**
+     *
+     */
     @Override
     public void speak() {
       
     }
+
+    /**
+     *
+     * @param depth
+     * @param amphibians
+     * @param name
+     */
+    public AquaticAnimal(double depth, boolean amphibians, String name) {
+        
+        this.depth = depth;
+        this.name = name;
+        this.amphibians = amphibians;
+    }
+
+    /**
+     *
+     * @return
+     */
+    public double getDepth() {
+        return depth;
+    }
+
+    /**
+     *
+     * @param depth
+     */
+    public void setDepth(double depth) {
+        this.depth = depth;
+    }
+
+    /**
+     *
+     * @return
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     *
+     * @param name
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
+     *
+     * @return
+     */
+    public boolean isAmphibians() {
+        return amphibians;
+    }
+
+    /**
+     *
+     * @param amphibians
+     */
+    public void setAmphibians(boolean amphibians) {
+        this.amphibians = amphibians;
+    }
     
+    /**
+     *
+     */
     @Override
     public void move() {
       
     }
     
+    /**
+     *
+     * @return
+     */
+    public String swim() {
+        return "yes";
+    }
+    
+    /**
+     *
+     * @return
+     */
+    public int speed(){
+        return 30;
+    }
+    
+    /**
+     *
+     * @return
+     */
+    public boolean scubaDiving() {
+        return true;
+    }
 }
