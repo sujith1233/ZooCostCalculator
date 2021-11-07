@@ -16,7 +16,7 @@ public abstract class Vehicle
     
     /**
      * getter method to get mileage
-     * @return mileage
+     * @return mileage//This method returns the mileage of the car
      */
     public double getMileage(){
         double mileage=(speed/kilometers)*5/18;
@@ -25,7 +25,7 @@ public abstract class Vehicle
 
     /**
      * getter method to get max Speed
-     * @return maxSpeed
+     * @return maxSpeed /This method returns the high speed of the car
      */
     public double getMaxSpeed(){
         double maxSpeed=speed*100;
