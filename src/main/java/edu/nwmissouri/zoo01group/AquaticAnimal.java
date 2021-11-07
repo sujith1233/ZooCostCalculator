@@ -4,12 +4,14 @@
  */
 package edu.nwmissouri.zoo01group;
 
-public class AquaticAnimal {
+public class AquaticAnimal extends Animal {
 
     private double depth;
     private String name;
 
-
+   public AquaticAnimal(String name){
+         super(name);
+    }
 
     /**
      *
@@ -17,9 +19,12 @@ public class AquaticAnimal {
      * @param name
      */
     public AquaticAnimal(double depth, String name) {
+        super(name);
         this.depth = depth;
         this.name = name;
     }
+
+  
 
     /**
      *
@@ -77,5 +82,20 @@ public class AquaticAnimal {
      */
     public boolean scubaDiving() {
         return true;
+    }
+    
+     /**
+     *
+     */
+    @Override
+    public void speak() {
+
+    }
+
+    /**
+     *
+     */
+    @Override
+    public void move() {
     }
 }
