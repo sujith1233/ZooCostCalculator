@@ -5,88 +5,89 @@
 package edu.nwmissouri.zoo01group;
 
 /**
+ * This class gives information about Terrestrial animals (dog,cat,goat)
  *
  * @author Anurag Kolluru
  */
 public class TerrestrialAnimal extends Animal {
-    
-    private int distance;
-    private double weight;
-    private boolean isSafe;
 
-    public TerrestrialAnimal(String name){
-         super(name);
-    }
+    private int watchTime;
+    private String animalName;
+
     /**
+     * This is a constructor
      *
-     * @param distance
-     * @param weight
-     * @param safe
+     * @param watchTime
+     * @param animalName
      * @param name
      */
-    public TerrestrialAnimal(int distance, double weight, boolean isSafe, String name) {
+    public TerrestrialAnimal(int watchTime, String animalName, String name) {
         super(name);
-        this.distance = distance;
-        this.weight = weight;
-        this.isSafe = isSafe;
+        this.watchTime = watchTime;
+        this.animalName = animalName;
     }
-    
+
     /**
+     * This method returns the Watch time
      *
      * @return
      */
-    public int getDistance() {
-        return distance;
+    public int getWatchTime() {
+        return watchTime;
     }
 
     /**
+     * This method sets the Watch time
      *
-     * @param distance
+     * @param watchTime
      */
-    public void setDistance(int distance) {
-        this.distance = distance;
+    public void setWatchTime(int watchTime) {
+        this.watchTime = watchTime;
     }
 
     /**
-     *
-     * @return
-     */
-    public double getWeight() {
-        return weight;
-    }
-
-    /**
-     *
-     * @param weight
-     */
-    public void setWeight(double weight) {
-        this.weight = weight;
-    }
-
-    /**
+     * THis method returns the Animal name
      *
      * @return
      */
-    public boolean isSafe() {
-        return isSafe;
+    public String getAnimalName() {
+        return animalName;
     }
 
     /**
+     * This method sets the Animal name
      *
-     * @param safe
+     * @param animalName
      */
-    public void setIsSafe(boolean safe) {
-        this.isSafe = safe;
+    public void setAnimalName(String animalName) {
+        this.animalName = animalName;
     }
 
-   
-  
     /**
      *
      */
     @Override
     public void speak() {
+        System.out.println("Generic speak method");
+    }
 
+    /**
+     *
+     * @param animalName
+     * @param name
+     */
+    public TerrestrialAnimal(String animalName, String name) {
+        super(name);
+        this.animalName = animalName;
+    }
+
+    /**
+     * This is a constructor
+     *
+     * @param name
+     */
+    public TerrestrialAnimal(String name) {
+        super(name);
     }
 
     /**
@@ -94,31 +95,8 @@ public class TerrestrialAnimal extends Animal {
      */
     @Override
     public void move() {
+        System.out.println("Generic move method");
+
     }
-    
-    /**
-     *
-     * @return
-     */
-    public String travle(){
-        return "trip";
-    }
-    
-    /**
-     *
-     * @return
-     */
-    public int count(){
-        return 100;
-    }
-    
-    /**
-     *
-     * @return
-     */
-    public double length(){
-        return 15.7;
-    }
-    
 
 }
