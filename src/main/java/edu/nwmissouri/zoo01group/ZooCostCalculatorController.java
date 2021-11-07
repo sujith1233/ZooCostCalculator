@@ -41,6 +41,5 @@ public class ZooCostCalculatorController {
         model.addAttribute("id", idParam);
         return "index";
     }
-
 }
 
