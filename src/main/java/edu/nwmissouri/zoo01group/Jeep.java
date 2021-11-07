@@ -9,9 +9,66 @@ package edu.nwmissouri.zoo01group;
  * @author S545398
  */
 public class Jeep extends FourWheeler {
-
+    private String engineTypeandRequiredFuel ;
+    private double Displacement;
+    private String fuelSystem;
     public Jeep() {
-    }
-    
+    }/**
+     * 
+     * @return engineTypeandRequiredFuel // 
+     */
+
+    public String getEngineTypeandRequiredFuel() {
+        return engineTypeandRequiredFuel;
+    }/**
+     * 
+     * @param engineTypeandRequiredFuel //
+     */
+
+    public void setEngineTypeandRequiredFuel(String engineTypeandRequiredFuel) {
+        this.engineTypeandRequiredFuel = engineTypeandRequiredFuel;
+    }/**
+     * 
+     * @return Displacement
+     */
+
+    public double getDisplacement() {
+        return Displacement;
+    }/**
+     * 
+     * @param Displacement // (litres per cubic inches)
+     */
+
+    public void setDisplacement(double Displacement) {
+        this.Displacement = Displacement;
+    }/**
+     * 
+     * @return fuelSystem
+     */
+
+    public String getFuelSystem() {
+        return fuelSystem;
+    }/**
+     * 
+     * @param fuelSystem // kinda fuel system
+     */
+
+    public void setFuelSystem(String fuelSystem) {
+        this.fuelSystem = fuelSystem;
+    }/**
+     * 
+     * @return maximumHorsePower // maximum horsepower of engine
+     */
+   public String maxHorsePower(){
+       String maximumHorsePower="270@5250";
+       return maximumHorsePower;
+   }/**
+    * 
+    * @return maxTorque // maximum torque
+    */
+   public String maximumTorque(){
+       String maxTorque="260@4800";
+       return maxTorque;
+   }
     
 }
