@@ -5,67 +5,80 @@
 package edu.nwmissouri.zoo01group;
 
 /**
- *
- * @author Pandiri Govinda Reddy
+ * @author Pandiri Govinda Reddy 
+ * Class Boat inheriting from the Vehicle
  */
-public class Boat extends Vehicle{
-    private int speed;
-    private String company;
-    private double length;
-    /**
-     * getter method to get speed 
-     * @return speed
-     
-    
-    */
-    public int getSpeed() {
-        return speed;
-    }
-    /**
-     * setter method to get speed
-     * @return speed
-    */
+public class Boat extends Vehicle {
 
-    public void setSpeed(int speed) {
-        this.speed = speed;
-    }
-    /**
-     *getter method to get company 
-     * @ return company
-    */
+    private double maxSpeed_mileperhour;
+    private int capacity;
+    private double perHourPrice_dollars;
 
-    public String getCompany() {
-        return company;
-    }
     /**
-     * setter method to get company
-     * @return company
-    */
-
-    public void setCompany(String company) {
-        this.company = company;
+     * getter method to get max speed
+     *
+     * @return maxSpeed_miles per hour
+     */
+    public double getmaxSpeed_mileperhour() {
+        return maxSpeed_mileperhour;
     }
 
-    public double getLength() {
-        return length;
+    /**
+     * setter method is for max speed of the boat
+     *
+     * @param maxSpeed_mileperhour
+     */
+    public void setmaxSpeed_mileperhour(double maxSpeed_mileperhour) {
+        this.maxSpeed_mileperhour = maxSpeed_mileperhour;
+    }
+    /**
+     * getter method to get capacity of the sets
+     *
+     * @return
+     * @ return capacity
+     */
+
+    public int getCapacity() {
+        return capacity;
+    }
+    /**
+     * setter method is for capacity of the boat
+     *
+     * @param capacity
+     */
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
+    /**
+     *
+     * @return
+     */
+    public double getperHourPrice_dollars() {
+        return perHourPrice_dollars;
+    }
+    /**
+     *
+     * @param perHourPrice_dollars
+     */
+    public void setperHourPrice_dollars(double perHourPrice_dollars) {
+        this.perHourPrice_dollars = perHourPrice_dollars;
+    }
+    /**
+     * Method returns the capacity of the boat
+     *
+     * @return
+     */
+    public int boatSeating() {
+        return this.capacity;
+    }
+    /**
+     * Method returns the max speed of the boat per hours
+     *
+     * @return
+     */
+    public double milesPerHour() {
+        return this.maxSpeed_mileperhour;
     }
 
-    public void setLength(double length) {
-        this.length = length;
-    }
-    /**
-     * Method used to display company of boat
-   
-    */
-    public String boatMake(){
-        return this.company;
-    }
-    /**
-     *  Method used to show speed of the boat 
-    */
-    public double milesPerHours(){
-        return this.speed;
-    }
-    
 }
-
