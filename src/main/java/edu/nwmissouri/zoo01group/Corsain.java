@@ -5,45 +5,81 @@
 package edu.nwmissouri.zoo01group;
 
 /**
- *
  * @author Pandiri Govinda Reddy
+ * Corsain class inheriting from the boat 
  */
 public class Corsain extends Boat {
-    private double length;
-    private double cost;
+    private String color;
+    private String serialNumber;
+    private String coDriver;
+
+    /**
+     *
+     * @return
+     */
+    public String getCoDriver() {
+        return coDriver;
+    }
+
+    /**
+     *
+     * @param coDriver
+     */
+    public void setCoDriver(String coDriver) {
+        this.coDriver = coDriver;
+    }
   /**
-   * getter and setter to get length and cost
-   * return length
-    
+   * getter and setter to get color and cost
+   * return color
+     * @return    
     */
-    public double getLength() {
-        return length;
+    public String getColor() {
+        return color;
     }
 
-    public void setLength(double length) {
-        this.length = length;
+    /**
+     *
+     * @param color
+     */
+    public void setColor(String color) {
+        this.color = color;
     }
 
-    public double getCost() {
-        return cost;
+    /**
+     *
+     * @return
+     */
+    public String getserialNumber() {
+        return serialNumber;
     }
 
-    public void setCost(double cost) {
-        this.cost = cost;
+    /**
+     * 
+     * @param serialNumber
+     */
+    public void setserialNumber(String serialNumber) {
+        this.serialNumber = serialNumber;
     }
 
+    /**
+     * Corsain constructor
+     */
     public Corsain() {
        
     }
      
-    
-    public double size(){
-        return this.length;
+    /**
+     *Method returns the vehicle number
+     * @return serial number
+     */
+    public String vehicileNumber(){
+        return this.serialNumber;
     }
     /**
-     * Method used to calculate the cost
+     * Method returns the color of the vehicle
+     * @return color
     */
-    public double costPerMile(){
-        return this.cost;
+    public String vehicleColor(){
+        return this.color;
     }
 }
