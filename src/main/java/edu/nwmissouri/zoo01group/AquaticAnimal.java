@@ -38,7 +38,6 @@ public class AquaticAnimal extends Animal {
 
     /**
      * This is a constructor
-     *
      * @param distance
      * @param isDangerous
      * @param waterDepth_meters

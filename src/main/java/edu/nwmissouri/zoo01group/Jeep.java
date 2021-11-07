@@ -5,8 +5,8 @@
 package edu.nwmissouri.zoo01group;
 
 /**
- *
- * @author S545398
+ * This is Jeep Class which is extended from FourWheeler Class
+ * @author Naveen Kumar Kanaparthi
  */
 public class Jeep extends FourWheeler {
     private String engineTypeandRequiredFuel ;

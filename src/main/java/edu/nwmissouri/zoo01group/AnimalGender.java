@@ -5,8 +5,8 @@
 package edu.nwmissouri.zoo01group;
 
 /**
- *
- * @author S545266
+ * This is an Enum
+ * @author Sreebharath Mallampati
  */
 public enum AnimalGender {
     MALE,

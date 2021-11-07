@@ -5,8 +5,8 @@
 package edu.nwmissouri.zoo01group;
 
 /**
- *
- * @author S545436
+ * This is an enum about vehicle categories
+ * @author Sujith Reddy Naidu
  */
 public enum VehicleCategories {
     OffRoad,

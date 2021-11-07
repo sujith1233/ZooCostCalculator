@@ -5,8 +5,8 @@
 package edu.nwmissouri.zoo01group;
 
 /**
- *
- * @author S545398
+ * This is LandRover class which is extended from FourWheeler
+ * @author Naveen Kumar Kanparthi
  */
 public class LandRover extends FourWheeler{
      private double price;

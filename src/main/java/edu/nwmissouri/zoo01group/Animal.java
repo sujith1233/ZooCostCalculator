@@ -4,7 +4,7 @@ package edu.nwmissouri.zoo01group;
  * Animal super class for traits shared by all animals. Abstract - don't make a
  * general animal - only specific types.
  *
- * @author Dr. Case
+ * @author Sreebharath Mallampati
  */
 public abstract class Animal {
 
@@ -55,7 +55,6 @@ public abstract class Animal {
     /**
      * Get the animal gender.
      *
-     * @see edu.nwmissouri.zoo04lab.AnimalGender
      * @return the gender
      */
     public AnimalGender getGender() {
@@ -65,7 +64,6 @@ public abstract class Animal {
     /**
      * Set the animal gender using an enum
      *
-     * @see edu.nwmissouri.zoo04lab.AnimalGender
      * @param gender the gender to set
      */
     public void setGender(AnimalGender gender) {

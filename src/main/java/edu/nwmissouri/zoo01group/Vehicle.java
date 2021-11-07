@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo01group;
 
 /**
- *
+ * This is Vehicle Abstract class
  * @author Mulamalla,Akhil Kumar Reddy 
  */
 public abstract class Vehicle 

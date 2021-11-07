@@ -5,8 +5,9 @@
 package edu.nwmissouri.zoo01group;
 
 /**
- * @author Pandiri Govinda Reddy 
  * Class Boat inheriting from the Vehicle
+
+ * @author Pandiri Govinda Reddy 
  */
 public class Boat extends Vehicle {
 

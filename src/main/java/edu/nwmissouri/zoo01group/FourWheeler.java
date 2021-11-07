@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo01group;
 
 /**
- *
+ * This is a four wheeler class extended from Vehicle Class
  * @author Mulamalla,Akhil Kumar Reddy 
  */
 public class FourWheeler extends Vehicle {

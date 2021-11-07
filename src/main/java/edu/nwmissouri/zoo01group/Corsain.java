@@ -5,8 +5,10 @@
 package edu.nwmissouri.zoo01group;
 
 /**
- * @author Pandiri Govinda Reddy
  * Corsain class inheriting from the boat 
+ * 
+ * @author Pandiri Govinda Reddy
+ * 
  */
 public class Corsain extends Boat {
     private String color;
