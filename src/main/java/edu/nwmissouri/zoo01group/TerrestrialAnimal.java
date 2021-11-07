@@ -12,8 +12,25 @@ public class TerrestrialAnimal extends Animal {
     
     private int distance;
     private double weight;
-    private boolean safe;
+    private boolean isSafe;
 
+    public TerrestrialAnimal(String name){
+         super(name);
+    }
+    /**
+     *
+     * @param distance
+     * @param weight
+     * @param safe
+     * @param name
+     */
+    public TerrestrialAnimal(int distance, double weight, boolean isSafe, String name) {
+        super(name);
+        this.distance = distance;
+        this.weight = weight;
+        this.isSafe = isSafe;
+    }
+    
     /**
      *
      * @return
@@ -51,30 +68,18 @@ public class TerrestrialAnimal extends Animal {
      * @return
      */
     public boolean isSafe() {
-        return safe;
+        return isSafe;
     }
 
     /**
      *
      * @param safe
      */
-    public void setSafe(boolean safe) {
-        this.safe = safe;
+    public void setIsSafe(boolean safe) {
+        this.isSafe = safe;
     }
 
-    /**
-     *
-     * @param distance
-     * @param weight
-     * @param safe
-     * @param name
-     */
-    public TerrestrialAnimal(int distance, double weight, boolean safe, String name) {
-        super(name);
-        this.distance = distance;
-        this.weight = weight;
-        this.safe = safe;
-    }
+   
   
     /**
      *

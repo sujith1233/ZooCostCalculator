@@ -6,15 +6,11 @@ package edu.nwmissouri.zoo01group;
 
 /**
  *
- * @author S545436
+ * @author S545266
  */
-public class Zebra extends TerrestrialAnimal {
-
-    private String name;
-    private double weight;
-    private double distance;
-    public Zebra(String name) {
-        super(name);
-    }
-    
+public enum AnimalGender {
+    MALE,
+    FEMALE,
+    OTHER,
+    UNKNOWN
 }

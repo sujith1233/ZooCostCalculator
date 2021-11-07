@@ -4,36 +4,21 @@
  */
 package edu.nwmissouri.zoo01group;
 
-/**
- *
- * @author Anurag Kolluru
- * 
- */
-public class AquaticAnimal extends Animal{
-    
+public class AquaticAnimal {
+
     private double depth;
     private String name;
-    private boolean amphibians;
 
-    /**
-     *
-     */
-    @Override
-    public void speak() {
-      
-    }
+
 
     /**
      *
      * @param depth
-     * @param amphibians
      * @param name
      */
-    public AquaticAnimal(double depth, boolean amphibians, String name) {
-        
+    public AquaticAnimal(double depth, String name) {
         this.depth = depth;
         this.name = name;
-        this.amphibians = amphibians;
     }
 
     /**
@@ -68,30 +53,8 @@ public class AquaticAnimal extends Animal{
         this.name = name;
     }
 
-    /**
-     *
-     * @return
-     */
-    public boolean isAmphibians() {
-        return amphibians;
-    }
+ 
 
-    /**
-     *
-     * @param amphibians
-     */
-    public void setAmphibians(boolean amphibians) {
-        this.amphibians = amphibians;
-    }
-    
-    /**
-     *
-     */
-    @Override
-    public void move() {
-      
-    }
-    
     /**
      *
      * @return
@@ -99,15 +62,15 @@ public class AquaticAnimal extends Animal{
     public String swim() {
         return "yes";
     }
-    
+
     /**
      *
      * @return
      */
-    public int speed(){
+    public int speed() {
         return 30;
     }
-    
+
     /**
      *
      * @return

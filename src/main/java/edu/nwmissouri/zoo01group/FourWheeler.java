@@ -9,14 +9,14 @@ package edu.nwmissouri.zoo01group;
  * @author Mulamalla,Akhil Kumar Reddy 
  */
 public class FourWheeler extends Vehicle {
-
-    /**
-     *
-     */
-    public FourWheeler() {
     private String vehicleName;
     private String vehicleColor;
     private int vehicleYear;
+    /**
+     *
+     */
+    public FourWheeler() {}
+
 
     /**
      *getter method to get vehicle name
@@ -83,6 +83,4 @@ public class FourWheeler extends Vehicle {
     public String vehicleOwner(String vehicleName) {
         return "";
     }
-}
-
 }
