@@ -51,14 +51,14 @@ public class Boat extends Vehicle {
         this.capacity = capacity;
     }
     /**
-     *
+     *getter method to get dollars per each hour 
      * @return perHourPrice_dollars
      */
     public double getperHourPrice_dollars() {
         return perHourPrice_dollars;
     }
     /**
-     *
+     *setter method to set dollars per each hour
      * @param perHourPrice_dollars
      */
     public void setperHourPrice_dollars(double perHourPrice_dollars) {

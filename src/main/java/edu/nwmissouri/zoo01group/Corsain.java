@@ -17,15 +17,25 @@ public class Corsain extends Boat {
     private String coDriver;
 
     /**
-     *
+     *getter method to get co-driver
      * @return coDriver
      */
     public String getCoDriver() {
         return coDriver;
     }
 
+    public Corsain(String color, String serialNumber){
+        this.color = color;
+        this.serialNumber = serialNumber;
+    }
+    
+      public Corsain(){
+        
+    }
+    
+    
     /**
-     *
+     *setter method to set co-driver
      * @param coDriver
      */
     public void setCoDriver(String coDriver) {
@@ -33,7 +43,7 @@ public class Corsain extends Boat {
     }
 
     /**
-     * getter and setter to get color and cost
+     * getter method to get color
      *
      * @return color
      */
@@ -42,7 +52,7 @@ public class Corsain extends Boat {
     }
 
     /**
-     *
+     *setter method to set color
      * @param color
      */
     public void setColor(String color) {
@@ -50,7 +60,7 @@ public class Corsain extends Boat {
     }
 
     /**
-     *
+     *getter method to get serial number
      * @return serialNumber
      */
     public String getserialNumber() {
@@ -58,7 +68,7 @@ public class Corsain extends Boat {
     }
 
     /**
-     *
+     *setter method to set serial number
      * @param serialNumber
      */
     public void setserialNumber(String serialNumber) {
@@ -70,7 +80,7 @@ public class Corsain extends Boat {
      *
      * @return serialNumber
      */
-    public String vehicileNumber() {
+    public String vehicleNumber() {
         return this.serialNumber;
     }
 
