@@ -12,7 +12,7 @@ package edu.nwmissouri.zoo01group;
 public abstract class Vehicle {
 
     private double speed;
-    private double kilometers;
+    private double distance_kilometers;
     private String name;
 
     /**
@@ -21,7 +21,7 @@ public abstract class Vehicle {
      * @return mileage//This method returns the mileage of the car
      */
     public double getMileage() {
-        double mileage = (speed / kilometers) * 5 / 18;
+        double mileage = (speed / distance_kilometers) * 5 / 18;
         return mileage;
     }
 

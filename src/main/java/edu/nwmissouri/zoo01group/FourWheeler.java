@@ -6,35 +6,47 @@ package edu.nwmissouri.zoo01group;
 
 /**
  * This is a four wheeler class extended from Vehicle Class
- * @author Mulamalla,Akhil Kumar Reddy 
+ *
+ * @author Mulamalla,Akhil Kumar Reddy
  */
 public class FourWheeler extends Vehicle {
+
     private String vehicleName;
     private String vehicleColor;
     private int vehicleYear;
     private String vehicleOwner;
+    private double speed;
+    private double distance;
+
     /**
      *
      */
-    public FourWheeler() {}
-
+    public FourWheeler(double speed, double distance) {
+        this.speed = speed;
+        this.distance = distance;
+    }
 
     /**
-     *getter method to get vehicle name
+     * getter method to get vehicle name
+     *
      * @return vehicleName//name of the brand which the car is
      */
     public String getVehicleName() {
         return vehicleName;
-    }/**
-     * 
+    }
+
+    /**
+     *
      * @return vehicleOwner
      */
 
     public String getVehicleOwner() {
         return vehicleOwner;
-    }/**
-     * 
-     * @param vehicleOwner 
+    }
+
+    /**
+     *
+     * @param vehicleOwner
      */
 
     public void setVehicleOwner(String vehicleOwner) {
@@ -42,7 +54,8 @@ public class FourWheeler extends Vehicle {
     }
 
     /**
-     *setter method to set vehicleName
+     * setter method to set vehicleName
+     *
      * @param vehicleName//name of the brand which the car is
      */
     public void setVehicleName(String vehicleName) {
@@ -50,7 +63,8 @@ public class FourWheeler extends Vehicle {
     }
 
     /**
-     *getter method to get vehicleColor
+     * getter method to get vehicleColor
+     *
      * @return vehicleColor
      */
     public String getVehicleColor() {
@@ -59,6 +73,7 @@ public class FourWheeler extends Vehicle {
 
     /**
      * setter method to set vehicleColor
+     *
      * @param vehicleColor
      */
     public void setVehicleColor(String vehicleColor) {
@@ -66,7 +81,8 @@ public class FourWheeler extends Vehicle {
     }
 
     /**
-     *getter method to get vehicleYear
+     * getter method to get vehicleYear
+     *
      * @return vehicleYear
      */
     public int getVehicleYear() {
@@ -75,6 +91,7 @@ public class FourWheeler extends Vehicle {
 
     /**
      * setter method to set vehicleYear
+     *
      * @param vehicleYear
      */
     public void setVehicleYear(int vehicleYear) {
@@ -83,6 +100,7 @@ public class FourWheeler extends Vehicle {
 
     /**
      * Boolean method to check vehicleWorkingState
+     *
      * @param vehicleName
      * @return vehicleWorkingState
      */
@@ -90,12 +108,27 @@ public class FourWheeler extends Vehicle {
         return false;
     }
 
+
     /**
-     * vehicleOwner method to get owner name
-     * @param vehicleName
-     * @return string 
+     * getter method to get mileage
+     *
+     * @return mileage//This method returns the mileage of the car
      */
-    public String vehicleOwner(String vehicleName) {
-        return vehicleOwner;
+    @Override
+    public double getMileage() {
+        double mileage = (speed / distance) * 5 / 18;
+        return mileage;
     }
+
+    /**
+     * getter method to get max Speed
+     *
+     * @return maxSpeed /This method returns the high speed of the car
+     */
+    @Override
+    public double getMaxSpeed() {
+        double maxSpeed = speed * 100;
+        return maxSpeed;
+    }
+
 }
