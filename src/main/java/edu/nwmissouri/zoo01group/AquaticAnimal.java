@@ -23,8 +23,8 @@ public class AquaticAnimal extends Animal {
      *
      */
     @Override
-    public void speak() {
-        System.out.println("Generic speak method");
+    public String speak() {
+        return "Generic speak method";
 
     }
 
@@ -32,8 +32,8 @@ public class AquaticAnimal extends Animal {
      *
      */
     @Override
-    public void move() {
-        System.out.println("Generic move method");
+    public String move() {
+        return "Generic move method";
     }
 
     /**

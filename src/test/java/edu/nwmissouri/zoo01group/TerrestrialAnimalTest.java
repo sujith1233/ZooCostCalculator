@@ -9,65 +9,41 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author s545169
+ * @author Anurag Kolluru
  */
 public class TerrestrialAnimalTest {
+    TerrestrialAnimal terrestrialObj;
     
     public TerrestrialAnimalTest() {
+        this.terrestrialObj = new TerrestrialAnimal(1,"Zebra","Anurag");
     }
 
     /**
-     * Test of getDistance method, of class TerrestrialAnimal.
+     * Test of getWatchTime method, of class TerrestrialAnimal.
      */
     @Test
-    public void testGetDistance() {
-                assertEquals(true);
-
+    public void testGetWatchTime() {
     }
 
     /**
-     * Test of setDistance method, of class TerrestrialAnimal.
+     * Test of setWatchTime method, of class TerrestrialAnimal.
      */
     @Test
-    public void testSetDistance() {
-                assertEquals(true);
-
+    public void testSetWatchTime() {
     }
 
     /**
-     * Test of getWeight method, of class TerrestrialAnimal.
+     * Test of getAnimalName method, of class TerrestrialAnimal.
      */
     @Test
-    public void testGetWeight() {
-                assertEquals(true);
-
+    public void testGetAnimalName() {
     }
 
     /**
-     * Test of setWeight method, of class TerrestrialAnimal.
+     * Test of setAnimalName method, of class TerrestrialAnimal.
      */
     @Test
-    public void testSetWeight() {
-                assertEquals(true);
-
-    }
-
-    /**
-     * Test of isSafe method, of class TerrestrialAnimal.
-     */
-    @Test
-    public void testIsSafe() {
-                assertEquals(true);
-
-    }
-
-    /**
-     * Test of setSafe method, of class TerrestrialAnimal.
-     */
-    @Test
-    public void testSetSafe() {
-                assertEquals(true);
-
+    public void testSetAnimalName() {
     }
 
     /**
@@ -75,8 +51,9 @@ public class TerrestrialAnimalTest {
      */
     @Test
     public void testSpeak() {
-                assertEquals(true);
-
+        String expected = "Generic speak method";
+        String actual = terrestrialObj.speak();
+        assertEquals(expected,actual);
     }
 
     /**
@@ -84,39 +61,9 @@ public class TerrestrialAnimalTest {
      */
     @Test
     public void testMove() {
-                assertEquals(true);
-
-    }
-
-    /**
-     * Test of travel method, of class TerrestrialAnimal.
-     */
-    @Test
-    public void testTravle() {
-                assertEquals(true);
-
-    }
-
-    /**
-     * Test of count method, of class TerrestrialAnimal.
-     */
-    @Test
-    public void testCount() {
-                assertEquals(true);
-
-    }
-
-    /**
-     * Test of length method, of class TerrestrialAnimal.
-     */
-    @Test
-    public void testLength() {
-        assertEquals(true);
-        
-    }
-
-    private void assertEquals(boolean b) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        String expected = "Generic move method";
+        String actual = terrestrialObj.move();
+        assertEquals(expected,actual);
     }
     
 }

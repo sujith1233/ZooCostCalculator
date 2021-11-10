@@ -9,11 +9,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author s545169
+ * @author Anurag Kolluru
  */
 public class AquaticAnimalTest {
+    AquaticAnimal aquaticObj;
     
     public AquaticAnimalTest() {
+        this.aquaticObj = new AquaticAnimal(1,true,1,1,"Anurag");
     }
 
     /**
@@ -21,89 +23,51 @@ public class AquaticAnimalTest {
      */
     @Test
     public void testSpeak() {
+        String expected = "Generic speak method";
+        String actual = aquaticObj.speak();
+        assertEquals(expected,actual);
     }
-
-    /**
-     * Test of getDepth method, of class AquaticAnimal.
-     */
-    @Test
-    public void testGetDepth() {
-    }
-
-    /**
-     * Test of setDepth method, of class AquaticAnimal.
-     */
-    @Test
-    public void testSetDepth() {
-    }
-
-    /**
-     * Test of getName method, of class AquaticAnimal.
-     */
-    @Test
-    public void testGetName() {
-    }
-
-    /**
-     * Test of setName method, of class AquaticAnimal.
-     */
-    @Test
-    public void testSetName() {
-    }
-
-    /**
-     * Test of isAmphibians method, of class AquaticAnimal.
-     */
-    @Test
-    public void testIsAmphibians() {
-    }
-
-    /**
-     * Test of setAmphibians method, of class AquaticAnimal.
-     */
-    @Test
-    public void testSetAmphibians() {        assertEquals(true);
-
-    }
-    
 
     /**
      * Test of move method, of class AquaticAnimal.
      */
     @Test
     public void testMove() {
-                assertEquals(true);
-
+        String expected = "Generic move method";
+        String actual = aquaticObj.move();
+        assertEquals(expected,actual);
     }
 
     /**
-     * Test of swim method, of class AquaticAnimal.
+     * Test of getWaterDepth_meters method, of class AquaticAnimal.
      */
     @Test
-    public void testSwim() {
-                assertEquals(true);
-
+    public void testGetWaterDepth_meters() {
+        assert(true);
     }
 
     /**
-     * Test of speed method, of class AquaticAnimal.
+     * Test of getWatchTime method, of class AquaticAnimal.
      */
     @Test
-    public void testSpeed() {
-                assertEquals(true);
-
+    public void testGetWatchTime() {
+        assert(true);
     }
 
     /**
-     * Test of scubaDiving method, of class AquaticAnimal.
+     * Test of setWaterDepth_meters method, of class AquaticAnimal.
      */
     @Test
-    public void testScubaDiving() {
-        assertEquals(true);
+    public void testSetWaterDepth_meters() {
+        assert(true);
     }
 
-    private void assertEquals(boolean b) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    /**
+     * Test of setWatchTime method, of class AquaticAnimal.
+     */
+    @Test
+    public void testSetWatchTime() {
+        assert(true);
     }
     
 }

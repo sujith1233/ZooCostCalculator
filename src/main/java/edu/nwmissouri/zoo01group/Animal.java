@@ -36,12 +36,12 @@ public abstract class Animal {
     /**
      * abstract speak() - has no implementation
      */
-    public abstract void speak();
+    public abstract String speak();
 
     /**
      * abstract move() - has no implementation
      */
-    public abstract void move();
+    public abstract String move();
 
     /**
      * Get animal's name.
