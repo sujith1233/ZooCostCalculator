@@ -22,15 +22,15 @@ public class ZooCostCalculatorController {
      * https://spring.io/guides/gs/serving-web-content/
      *
      *
-     * @param idParam - the id provided in the URL
-     * @param model - the model that holds information from controller to view
-     * @return
+     * @param id // the id provided in the URL
+     * @param model //the model that holds information from controller to view
+     * @return View
      */
     @GetMapping(path = "/")
     public String index(
-            @RequestParam(name = "id", required = false, defaultValue = "0") String idParam,
+            @RequestParam(name = "id", required = false, defaultValue = "0") String id,
             Model model) {
-        model.addAttribute("id", idParam);
+        model.addAttribute("id", id);
         return "index";
     }
 }
