@@ -24,7 +24,7 @@ public class Motorbike extends Animal{
 
     /**
      * This method returns the maximum speed
-     * @return
+     * @return maxSpeed
      */
     public double getMaxSpeed() {
         return maxSpeed;
@@ -40,7 +40,7 @@ public class Motorbike extends Animal{
 
     /**
      * This method returns the type of the vehicle
-     * @return
+     * @return vehicleType
      */
     public VehicleCategories getVehicleType() {
         return vehicleType;
@@ -56,7 +56,7 @@ public class Motorbike extends Animal{
 
     /**
      * This method returns price per hour in dollars
-     * @return
+     * @return pricePerHour_dollars
      */
     public double getPricePerHour_dollars() {
         return pricePerHour_dollars;
@@ -72,7 +72,7 @@ public class Motorbike extends Animal{
 
     /**
      * This method returns the name
-     * @return
+     * @return name
      */
     public String getName() {
         return name;
@@ -88,7 +88,7 @@ public class Motorbike extends Animal{
 
     /**
      * This method returns the gender of the Animal
-     * @return
+     * @return gender
      */
     public AnimalGender getGender() {
         return gender;

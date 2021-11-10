@@ -1,13 +1,5 @@
-package edu.nwmissouri.zoo10group;
+package edu.nwmissouri.zoo01group;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Map;
-import java.util.TreeMap;
-import java.lang.reflect.Method;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * Use the new Java 15 text blocks to provide our menu. Thymeleaf:
  * https://spring.io/guides/gs/serving-web-content/
  *
- * @author Alex Dieringer
+ * @author Sreebharath Mallampati
  */
 @Controller
 public class ZooCostCalculatorController {

@@ -24,7 +24,7 @@ public class Zebra extends TerrestrialAnimal {
 
     /**
      * This method returns the name
-     * @return
+     * @return name
      */
     public String getName() {
         return name;
@@ -40,7 +40,7 @@ public class Zebra extends TerrestrialAnimal {
 
     /**
      * This method returns the weight
-     * @return
+     * @return weight
      */
     public double getWeight() {
         return weight;
@@ -72,7 +72,7 @@ public class Zebra extends TerrestrialAnimal {
 
     /**
      * This method returns the gender
-     * @return
+     * @return gender
      */
     public AnimalGender getGender() {
         return gender;
@@ -88,7 +88,7 @@ public class Zebra extends TerrestrialAnimal {
 
     /**
      * This method returns returns the height
-     * @return
+     * @return 20
      */
     public double getHeight_inches() {
         return 20;

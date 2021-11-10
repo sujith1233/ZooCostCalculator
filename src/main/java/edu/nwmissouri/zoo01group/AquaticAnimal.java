@@ -55,7 +55,7 @@ public class AquaticAnimal extends Animal {
     /**
      * This method returns depth of the water
      *
-     * @return
+     * @return waterDepth_meters
      */
     public double getWaterDepth_meters() {
         return waterDepth_meters;
@@ -64,7 +64,7 @@ public class AquaticAnimal extends Animal {
     /**
      * This method returns the watch time
      *
-     * @return
+     * @return watchTime
      */
     public int getWatchTime() {
         return watchTime;

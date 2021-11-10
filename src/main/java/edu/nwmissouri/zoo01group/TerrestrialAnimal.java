@@ -30,7 +30,7 @@ public class TerrestrialAnimal extends Animal {
     /**
      * This method returns the Watch time
      *
-     * @return
+     * @return watchTime
      */
     public int getWatchTime() {
         return watchTime;
@@ -48,7 +48,7 @@ public class TerrestrialAnimal extends Animal {
     /**
      * THis method returns the Animal name
      *
-     * @return
+     * @return animalName
      */
     public String getAnimalName() {
         return animalName;

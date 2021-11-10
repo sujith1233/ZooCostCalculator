@@ -51,7 +51,7 @@ public class FourWheeler extends Vehicle {
 
     /**
      *getter method to get vehicleColor
-     * @return vehicle color//color of the car 
+     * @return vehicleColor
      */
     public String getVehicleColor() {
         return vehicleColor;
@@ -59,7 +59,7 @@ public class FourWheeler extends Vehicle {
 
     /**
      * setter method to set vehicleColor
-     * @param vehicleColor//vehicle color
+     * @param vehicleColor
      */
     public void setVehicleColor(String vehicleColor) {
         this.vehicleColor = vehicleColor;
@@ -67,7 +67,7 @@ public class FourWheeler extends Vehicle {
 
     /**
      *getter method to get vehicleYear
-     * @return vehicleYear//vehicle year
+     * @return vehicleYear
      */
     public int getVehicleYear() {
         return vehicleYear;
@@ -75,7 +75,7 @@ public class FourWheeler extends Vehicle {
 
     /**
      * setter method to set vehicleYear
-     * @param vehicleYear//vehicle year
+     * @param vehicleYear
      */
     public void setVehicleYear(int vehicleYear) {
         this.vehicleYear = vehicleYear;
@@ -83,8 +83,8 @@ public class FourWheeler extends Vehicle {
 
     /**
      * Boolean method to check vehicleWorkingState
-     * @param vehicleName//is the vehicle is in working condition or not
-     * @return false
+     * @param vehicleName
+     * @return vehicleWorkingState
      */
     public boolean vehicleWorkingState(String vehicleName) {
         return false;
@@ -92,7 +92,7 @@ public class FourWheeler extends Vehicle {
 
     /**
      * vehicleOwner method to get owner name
-     * @param vehicleName//name of the owner
+     * @param vehicleName
      * @return string 
      */
     public String vehicleOwner(String vehicleName) {

@@ -23,7 +23,7 @@ public class Giraffe extends TerrestrialAnimal {
 
     /**
      * This method returns the name
-     * @return
+     * @return name
      */
     public String getName() {
         return name;
@@ -39,7 +39,7 @@ public class Giraffe extends TerrestrialAnimal {
 
     /**
      * This method returns the weight
-     * @return
+     * @return weight
      */
     public double getWeight() {
         return weight;
@@ -55,7 +55,7 @@ public class Giraffe extends TerrestrialAnimal {
 
     /**
      * This method returns the distance
-     * @return
+     * @return distance
      */
     public double getDistance() {
         return distance;
@@ -81,7 +81,7 @@ public class Giraffe extends TerrestrialAnimal {
 
     /**
      * This method returns returns the height
-     * @return
+     * @return getHeight_inches
      */
     public double getHeight_inches() {
         return 20;

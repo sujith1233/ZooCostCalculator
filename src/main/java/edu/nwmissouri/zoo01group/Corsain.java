@@ -5,19 +5,20 @@
 package edu.nwmissouri.zoo01group;
 
 /**
- * Corsain class inheriting from the boat 
- * 
+ * Corsain class inheriting from the boat
+ *
  * @author Pandiri Govinda Reddy
- * 
+ *
  */
 public class Corsain extends Boat {
+
     private String color;
     private String serialNumber;
     private String coDriver;
 
     /**
      *
-     * @return
+     * @return coDriver
      */
     public String getCoDriver() {
         return coDriver;
@@ -30,11 +31,12 @@ public class Corsain extends Boat {
     public void setCoDriver(String coDriver) {
         this.coDriver = coDriver;
     }
-  /**
-   * getter and setter to get color and cost
-   * return color
-     * @return    
-    */
+
+    /**
+     * getter and setter to get color and cost
+     *
+     * @return color
+     */
     public String getColor() {
         return color;
     }
@@ -49,14 +51,14 @@ public class Corsain extends Boat {
 
     /**
      *
-     * @return
+     * @return serialNumber
      */
     public String getserialNumber() {
         return serialNumber;
     }
 
     /**
-     * 
+     *
      * @param serialNumber
      */
     public void setserialNumber(String serialNumber) {
@@ -64,24 +66,20 @@ public class Corsain extends Boat {
     }
 
     /**
-     * Corsain constructor
+     * Method returns the vehicle number
+     *
+     * @return serialNumber
      */
-    public Corsain() {
-       
-    }
-     
-    /**
-     *Method returns the vehicle number
-     * @return serial number
-     */
-    public String vehicileNumber(){
+    public String vehicileNumber() {
         return this.serialNumber;
     }
+
     /**
      * Method returns the color of the vehicle
+     *
      * @return color
-    */
-    public String vehicleColor(){
+     */
+    public String vehicleColor() {
         return this.color;
     }
 }

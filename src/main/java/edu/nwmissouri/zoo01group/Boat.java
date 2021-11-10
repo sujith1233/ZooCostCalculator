@@ -35,8 +35,7 @@ public class Boat extends Vehicle {
     /**
      * getter method to get capacity of the sets
      *
-     * @return
-     * @ return capacity
+     * @return capacity
      */
 
     public int getCapacity() {
@@ -53,7 +52,7 @@ public class Boat extends Vehicle {
     }
     /**
      *
-     * @return
+     * @return perHourPrice_dollars
      */
     public double getperHourPrice_dollars() {
         return perHourPrice_dollars;
@@ -68,7 +67,7 @@ public class Boat extends Vehicle {
     /**
      * Method returns the capacity of the boat
      *
-     * @return
+     * @return capacity
      */
     public int boatSeating() {
         return this.capacity;
@@ -76,7 +75,7 @@ public class Boat extends Vehicle {
     /**
      * Method returns the max speed of the boat per hours
      *
-     * @return
+     * @return maxSpeed_mileperhour
      */
     public double milesPerHour() {
         return this.maxSpeed_mileperhour;
