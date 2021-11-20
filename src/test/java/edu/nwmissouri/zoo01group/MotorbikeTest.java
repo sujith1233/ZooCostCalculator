@@ -62,28 +62,6 @@ public class MotorbikeTest {
     public void testSetPricePerHour_dollars() {
         assert(true);
     }
-    public static void Exception()
-    {
-        int a=9;
-        int b=0;
-        try{
-            int y=a/b;
-            System.out.println("divided value"+y);
-        }catch(Exception e){
-                        System.out.println("Exception is "+e);
-
-        }
-    }
-    public static void Casting()
-    {
-        int i=9;
-        double d=(double) i;
-         System.out.println("Casted from int to double"+d);
-
-    }
-    public static void main(String[] args){
-        Exception();
-        
-    }
+   
     
 }
